@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error: Error while compiling statement: FAILED: Execution Error, return code 2 from org.apache.hadoop.hive.ql.exec.tez.TezTask. Counters limit exceeded: Too many counters: 121 max=120 (state=08S01,code=2)
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory
