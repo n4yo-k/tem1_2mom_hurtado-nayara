@@ -2,7 +2,7 @@
 # Proyecto Analítico Apache Hive - Superstore Sales
 
 ## 1. Descripción y Objetivos
-Proyecto individual de procesamiento y análisis de Big Data utilizando Apache Hive sobre el dataset Sample Superstore.
+Proyecto de procesamiento de Big Data utilizando Apache Hive sobre el dataset de kaggle Sample Superstore
 
 ## 2. Requisitos del Entorno
 - Docker Desktop
