@@ -1,0 +1,52 @@
+
+
+
+
++-------------------+------------+
+|       tabla       | registros  |
++-------------------+------------+
+| superstore_sales  | 9994       |
+| stg_superstore    | 9994       |
++-------------------+------------+
+
+
++----------------+----------------+----------+
+|    col_name    |   data_type    | comment  |
++----------------+----------------+----------+
+| row_id         | int            |          |
+| order_id       | string         |          |
+| order_date     | date           |          |
+| ship_date      | date           |          |
+| ship_mode      | string         |          |
+| customer_id    | string         |          |
+| customer_name  | string         |          |
+| segment        | string         |          |
+| country        | string         |          |
+| city           | string         |          |
+| state          | string         |          |
+| postal_code    | string         |          |
+| region         | string         |          |
+| product_id     | string         |          |
+| category       | string         |          |
+| sub_category   | string         |          |
+| product_name   | string         |          |
+| sales          | decimal(12,4)  |          |
+| quantity       | int            |          |
+| discount       | decimal(4,2)   |          |
+| profit         | decimal(12,4)  |          |
++----------------+----------------+----------+
+
+
+
++---------+-----------------+-------------+-------------+---------+------------------+-----------+-----------+-----------+------------+
+| row_id  |    order_id     | order_date  |  ship_date  | region  |     category     |   sales   | quantity  | discount  |   profit   |
++---------+-----------------+-------------+-------------+---------+------------------+-----------+-----------+-----------+------------+
+| 1       | CA-2016-152156  | 2016-11-08  | 2016-11-11  | South   | Furniture        | 261.9600  | 2         | 0.00      | 41.9136    |
+| 2       | CA-2016-152156  | 2016-11-08  | 2016-11-11  | South   | Furniture        | 731.9400  | 3         | 0.00      | 219.5820   |
+| 3       | CA-2016-138688  | 2016-06-12  | 2016-06-16  | West    | Office Supplies  | 14.6200   | 2         | 0.00      | 6.8714     |
+| 4       | US-2015-108966  | 2015-10-11  | 2015-10-18  | South   | Furniture        | 957.5775  | 5         | 0.45      | -383.0310  |
+| 5       | US-2015-108966  | 2015-10-11  | 2015-10-18  | South   | Office Supplies  | 22.3680   | 2         | 0.20      | 2.5164     |
++---------+-----------------+-------------+-------------+---------+------------------+-----------+-----------+-----------+------------+
+
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory

@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[WARN] Failed to create directory: /home/hive/.beeline
+No such file or directory

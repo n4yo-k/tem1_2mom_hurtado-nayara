@@ -1,7 +1,7 @@
 USE superstore;
 
 -- 1) CSV -> staging
-LOAD DATA LOCAL INPATH '/tmp/superstore.csv' OVERWRITE INTO TABLE stg_superstore;
+LOAD DATA LOCAL INPATH '/work/data/archive/Sample - Superstore.csv' OVERWRITE INTO TABLE stg_superstore;
 
 -- 2) staging -> tabla analítica (casteo de tipos y fechas M/d/yyyy)
 INSERT OVERWRITE TABLE superstore_sales
